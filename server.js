@@ -43,6 +43,6 @@ return natural;
 
 
 }
-app.listen(8080, function (){
+app.listen(process.env.PORT || 5000, function (){
     console.log('Node is on');
 });
